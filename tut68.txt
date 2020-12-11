@@ -1,0 +1,4 @@
+Inserting Data in MongoDb
+1)  use {anyname}
+2)  db.items.insertOne({name:"iPhone", price:150000, rating:4.5, sold:197})
+3)  db.items.insertMany([{name:"iPhone", price:150000, rating:4.5, sold:197}, {name:"iPod", price:127000, rating:4.7, sold:274}])

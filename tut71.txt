@@ -1,0 +1,6 @@
+Uploding Database to MongoDb
+
+db.anotherCollections.insertOne({a: 92})
+db.anotherCollections.find()
+db.items.updateOne({name: "iPod"}, {$set: {price: 200}})
+db.items.updateAll({name: "iPod"}, {$set: {price: 200}})

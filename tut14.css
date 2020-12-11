@@ -1,0 +1,12 @@
+p{
+    /* font-family: cursive; */
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-size: 50px;
+    line-height: 5.0em;
+    font-weight: bold;
+}
+
+span{
+    font-weight: 500;
+    font-style: italic;
+}

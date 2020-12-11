@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js SetTimeOut and clearTimeOut</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="time"></h1>
+    </div>
+    <script>
+        function greet(name, bye){
+            console.log("Happy Birthday " + name + " " + bye + " " + name);
+        }
+        // setTimeout(greet, 5000, "Pranav", "Bye ");
+        // setInterval(greet, 2000, "Pranav", "Bye")
+        function displayTime(){
+            time = new Date();
+            console.log(time);
+            document.getElementById('time').innerHTML = time;
+        }
+        setInterval(displayTime, 1000)
+    </script>
+</body>
+</html>

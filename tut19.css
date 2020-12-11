@@ -1,0 +1,30 @@
+.container{
+    border: 2px solid rgb(43, 216, 100);
+    background-color: rgb(0, 57, 61);
+    color: beige;
+    padding: 34px;
+    margin: auto;
+    width: 600px;
+}
+.btn{
+    background-color: cornflowerblue;
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 13px;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+.btn:hover{
+    color: green;
+    background-color: black;
+}
+.btn:visited{
+    background-color: blueviolet;
+}
+#id:active{
+    background-color: blueviolet;
+}

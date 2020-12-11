@@ -1,0 +1,11 @@
+Searching for data in mongo db
+
+use pranavcart
+db.items.find({rating: 4.7})
+db.items.find({rating: {$gte: 4.0}}) Greater than equal to
+db.items.find({rating: {$lte: 4.0}}) less than equal to
+db.items.find({rating: {$gt: 4.6}}) Only Greater than
+db.items.find({rating: {$gte: 4.6}, price: {$gte: 128000}}) And operator
+db.items.find({$or:[{rating: {$gte: 4.6}}, {price: {$gte: 128000}}]}) And operator
+db.items.find({rating: 4.7}, {rating: 1}) To get a single criteria
+db.items.find({rating: 4.7}, {rating: 1, sold: 1}) To get a multiple criteria

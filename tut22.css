@@ -1,0 +1,25 @@
+/* position - static(default), absolute, relative, fixed, sticky */
+.box{
+    display: inline-block;
+    border: 2px solid blue;
+    height: 150px;
+    width: 150px;
+    margin: 2px;
+}
+#box1{
+    position: absolute;
+    /* position: relative; */
+    top: 74px;
+    left: 130px;
+}
+.container{
+    border: 2px solid red;
+    height: 3333px;
+}
+#box3{
+    /* position: fixed; */
+    position: sticky;
+    top: 3px;
+    /* right: 4px;
+    bottom: 4px;*/
+}

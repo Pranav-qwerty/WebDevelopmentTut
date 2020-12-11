@@ -1,0 +1,19 @@
+body{
+    background: url("https://source.unsplash.com/collection/190727/1600x900") no-repeat;
+}
+.container{
+    display: flex;
+}
+.card{
+    padding: 23px 12px;
+    border: 2px solid red;
+    margin: 21px 23px;
+    background-color: rgb(196, 135, 23);
+    /* box-shadow: -10px 13px green; */
+    /* box-shadow: -10px 13px 10px 30px green; */
+    box-shadow: -10px 13px 10px gray;
+    /* box-shadow: inset 13px 10px darkgreen; */
+}
+.card p{
+    text-shadow: -1px 3px gray;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input</title>
+</head>
+<body>
+    <h2>HTML Forms</h2>
+    <form action="backend.php">
+        <label for="name">Name</label>
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <div>
+            Roll no: <input type="text" name="myRoll">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+        <br>
+        <div>
+            Date: <input type="date" name="myDate" id="">
+        </div>
+        <br>
+        <div>
+            Write About YourSelf: <br><textarea name="myText" id="" cols="90" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="car">Cars</label>
+            <br>
+            <select name="myCar" id="car">
+                <option value="Indica">Indica</option>
+                <option value="Lamborgini">Lamborgini</option>
+                <option value="None" selected>None</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+</body>
+</html>

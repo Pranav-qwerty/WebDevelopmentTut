@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+}
+/* Navigation Bar */
+#logo img{
+    height: 50px;
+    width: 50px;
+}
+#logo{
+    height: 50px;
+    width: 50px;
+}
+.item{
+    font-size: 30px;
+    margin-left: 33px;
+}
+.item a{
+    text-decoration: none;
+    border: black;
+    border-radius: 20px;
+    color: black;
+    padding: 15px 25px;
+}
+.item a:hover{
+    color: white;
+    background-color: black;
+}
+#navbar{
+    background-color: #a15f5f;
+    height: 80px;
+}
+/* Main body */
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+}
+#main:before{
+    content: "";
+    background: url(../static/img/background.jpg) no-repeat;
+    position: absolute;
+    top: -590px;
+    left: 0px;
+    height: 200%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+#heading{
+    text-align: center;
+}
+#heading h1{
+    font-size: 50px;
+}
+#heading p{
+    font-size: 20px;
+}
+/* Sponsors section */
+#sponsors{
+    top: 0px;
+    left: 0px;
+    color: white;
+    background-color: #200c32;
+}
+#sponsors-img img{
+    width: 22%;
+}
+#sponsors-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 10%;
+}
+.logo{
+    padding: 35px;
+}
+#logo1{
+    height: 100%;
+}
+#logo2{
+    height: 10%;
+}
+#logo3{
+    height: 10%;
+}
+#s-slo{
+    display: block;
+    width: 282px;
+    margin: auto;
+    font-size: 50px;
+    text-align: center;
+}
+/* Footer Section */
+#footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}

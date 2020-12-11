@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Functions in JS</title>
+</head>
+<body>
+    <script>
+        var str = "This is a String";
+        console.log(str);
+        var position = str.indexOf('is');
+        console.log(position);
+        position = str.lastIndexOf('is');
+        console.log(position);
+
+        // var substr = str.substring(1, 7);
+        // var substr = str.substr(1, 7);
+        var substr = str.slice(1, 7);
+        console.log(substr)
+
+        var replaced = str.replace('String', "Pranav");
+        console.log(str);
+        console.log(replaced);
+
+        console.log(str.toUpperCase());
+        console.log(str.toLowerCase());
+        var newStr = str.concat(' new String');
+        console.log(newStr);
+        var whitespaces = "    this contains            whitespaces     ";
+        console.log(whitespaces)
+        console.log(whitespaces.trim())
+        var char3 = str.charAt(3);
+        console.log(char3);
+    </script>
+</body>
+</html>

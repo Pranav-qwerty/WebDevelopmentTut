@@ -1,0 +1,17 @@
+.container{
+    display: grid;
+    border: 1px solid blue;
+    /* grid-template-columns: 300px 100px 100px; */
+    /* grid-template-columns: 300px auto 100px; */
+    /* grid-template-columns: 1fr 4fr 1fr; */
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 2rem;
+}
+.item{
+    /* height: 100px;
+    width: 100px; */
+    background-color: aquamarine;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 3px;
+}

@@ -1,0 +1,4 @@
+Deleting item from the Mongo Db database
+
+db.items.deleteOne({price: 150000}) Will delete only one doc in any case
+db.items.deleteMany({price: 150000}) Will delete every matched doc

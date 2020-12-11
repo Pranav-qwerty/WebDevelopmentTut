@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Events</title>
+</head>
+<body>
+    <div class="container">
+        <h1>This is Heading</h1>
+        <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis maiores veniam aliquam fugit recusandae qui animi perspiciatis, autem veritatis, a, quae necessitatibus quidem sequi magni error unde aut obcaecati dignissimos hic illo facilis? Iste dolor nobis, quod et obcaecati, quae nostrum veniam odit vero at saepe eveniet expedita praesentium earum amet tempore. Laborum rem ipsum similique nemo error veniam eos quod vero temporibus amet exercitationem itaque molestiae, placeat fugit dignissimos porro, consequuntur distinctio eveniet enim quibusdam, facere quis aut. Blanditiis error nesciunt, dolore molestias cum expedita quae inventore debitis repudiandae vero nihil, nemo fuga tempore veritatis velit provident nulla facilis?</p>
+    </div>
+    <button id="btn" onclick="thide()">This is button</button>
+    <script>
+        let para = document.getElementById('para');
+        para.addEventListener('mouseover', function run(){
+            console.log("Mouse inside")
+        });
+        // let para = document.getElementById('para');
+        para.addEventListener('mouseout', function run(){
+            console.log("Mouse now went outside")
+        });
+        function thide(){
+            let btn = document.getElementById('btn');
+            let para = document.getElementById('para');
+            if(para.style.display != "none"){
+                para.style.display = "none";
+            }
+            else{
+                para.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>

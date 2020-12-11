@@ -1,0 +1,19 @@
+h1{
+    background-color: blue;
+    color: red;
+    font-size: 22px;
+    text-align: center;
+}
+div p{
+    color: yellow;
+    font-weight: bold;
+    background-color: darkgreen;
+}
+div li p{
+    color: white;
+    background-color: chartreuse;
+}
+div + h5{
+    background-color: brown;
+    color: blue;
+}

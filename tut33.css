@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+    color: white;
+}
+#box{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    /* transition-property: background-color;
+    transition-timing-function: ease-in;
+    transition-delay: 1s; */
+    transition-duration: 2s;
+/*-------------------------------------------InOneLine------------------------------------------------------*/
+    transition: background-color ease-in 3s;
+    transition: all ease-in 3s;
+}
+#box:hover{
+    background-color: blueviolet;
+    border-radius: 50px;
+    font-size: 30px;
+}

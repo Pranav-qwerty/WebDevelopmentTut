@@ -1,0 +1,28 @@
+doctype html
+html
+    head
+        title This is Title
+        style
+            include ../static/style.css
+    body
+        div#navbar
+            spam#logo   #[img(src="/static/logo.png", alt="")]
+            spam.item   #[a(href="/")   Home]
+            spam.item   #[a(href="/")   Services]
+            spam.item   #[a(href="/")   About Us]
+            spam.item   #[a(href="/")   Contact Us]
+        div#main
+            div#heading
+                h1  Welcome to our Ax-54 Academy
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa error eius.
+        div#sponsors
+            h2#s-slo  OUR SPONOSORS
+            div#sponsors-img
+                img(src="../static/img/logo1.png", alt="Our Sponsors" class="logo" id="logo1")
+                img(src="../static/img/logo2.png", alt="Our Sponsors" class="logo" id="logo2")
+                img(src="../static/img/logo3.png", alt="Our Sponsors" class="logo" id="logo3")
+                <img src="../static/img/logo4.png" alt="Our Sponsors" class="logo" id="logo4" style="width: 8%;">
+            footer#footer
+                |   Copyright 2020 ©Ax-DanceAcademy.com
+        script
+            include ../static/index.js

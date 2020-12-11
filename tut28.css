@@ -1,0 +1,31 @@
+input {
+  display: block;
+}
+.container {
+  margin: auto;
+  display: block;
+  width: 233px;
+}
+input[type="text"] {
+  padding: 23px;
+  border: 2px solid red;
+}
+a[target] {
+  font-size: 34px;
+  color: rgb(126, 26, 126);
+}
+a[target="_self"] {
+  font-size: 22px;
+  color: blue;
+}
+li:nth-child(1n + 0) {
+  color: rebeccapurple;
+  background-color: black;
+}
+li:nth-child(3) {
+  color: chartreuse;
+}
+li:nth-child(2n + 0) {
+  color: blue;
+  background-color: yellow;
+}
